@@ -1,8 +1,13 @@
 <?php
 
 
+$DB['cddb'] = array(
+    'server'=>'localhost',
+    'user'=>'cddb',
+    'pass'=>'cddb',
+    'db'=>'cddb',
+);
 
-
-if(is_file('config.inc.local.php')){
-	require_once('config.inc.local.php');
+if(is_file('config.local.inc.php')){
+	require_once('config.local.inc.php');
 }
